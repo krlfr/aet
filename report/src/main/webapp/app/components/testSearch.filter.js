@@ -42,6 +42,8 @@ define(['angularAMD'], function (angularAMD) {
       return name && name.includes(searchPhrase);
     }
 
-    
+    function concatenate (listOfStrings) {
+      return listOfStrings.join(' ');
+    }
   }
 });
